@@ -28,6 +28,6 @@ Clone the following repository:
 
 4) At the end of the script that opens, paste the following line and save the file (Ctrl X if using Nano) :
 
-```0 * * * * sh /home/{Username}/UP776060S4/cronjob.sh```
+```0 * * * * sh /home/{Username}/UP776060S4/export.sh```
 
 This will automatically run a backup of the datastore on the hour, every hour until the job is manually removed.
